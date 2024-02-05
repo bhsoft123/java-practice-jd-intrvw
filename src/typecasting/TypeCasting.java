@@ -7,9 +7,10 @@ public class TypeCasting {
      *     1. Widening Type Casting 2. Narrowing Type Casting
      */
     public static void main(String[] args) {
+        wideningTypeCasting();
+        narrowingTypeCasting();
 
     }
-
     public static void wideningTypeCasting(){
         // create int type variable
         int num = 10;
@@ -26,9 +27,9 @@ public class TypeCasting {
         System.out.println("The double value: " + num);
 
         // convert into int type
-        int data = (int)num;
-        System.out.println("The integer value: " + data);
-    }
-}
+     //   int data = (int)num;
+        System.out.println("The integer value: " + (int)num);
+    }}
+
 
 
